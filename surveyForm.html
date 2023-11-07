@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">myFirstSurveyForm</h1>
+    <p id="description">Doing my best, Working for a better future</p>
+    <form id="survey-form">
+      <label id="name-label" >Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label id="number-label" >Age(optional)</label>
+      <input id="number" min="13" max="120"placeholder="Age" type="number">
+     <select id="dropdown">
+       <option>Change and grow
+         <option>Stay and die</option>
+      </select>
+      ¿What do you choose?
+      <input name="be" value="1" type="radio">Be</input>
+      <input name="be" value="2" type="radio">Not to be</input>
+      <input value="1" type="checkbox">Artist</input>
+      <input value="2" type="checkbox">Programmer</input>
+      <input value="3" type="checkbox">Lover</input>
+      <textarea></textarea>
+      <button id="submit">Submit</button>
+</body>
+</html>
